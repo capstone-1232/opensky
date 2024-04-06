@@ -1,0 +1,17 @@
+.workshops-banner {
+    padding-top: 3.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 1.5rem;
+    color: #f5f5f5;
+    background-image: url(https://naitsa-a.web.dmitcapstone.ca/open-sky-mental-health/wp-content/uploads/2024/04/sky-img-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.workshops-banner h2 {
+    max-width: 60rem;
+    margin: 0 auto;
+    line-height: 1.5;
+}

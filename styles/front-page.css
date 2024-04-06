@@ -1,0 +1,104 @@
+.home-banner-bg {
+    background-image: url(https://naitsa-a.web.dmitcapstone.ca/open-sky-mental-health/wp-content/uploads/2024/03/home-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+}
+
+.home-banner-bg h2 {
+    color: #f6f6f6;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+button.banner-button {
+    color: #f6f6f6;
+    font-size: 16px;
+    padding: 8px 50px;
+    border-radius: 30px;
+    border: 2px solid #f6f6f6;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.banner-button:hover,
+button.button:hover {
+    color: #f6f6f6;
+    border: 2px solid #1A416A;
+    background-color: #1A416A;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+button.button {
+    color: #1A416A;
+    font-size: 16px;
+    padding: 8px 50px;
+    border-radius: 30px;
+    border: 2px solid #1A416A;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 1rem;
+}
+
+.home-quote-bg {
+    background-image: url(https://naitsa-a.web.dmitcapstone.ca/open-sky-mental-health/wp-content/uploads/2024/03/home-quote.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+}
+
+.home-quote-bg h3,
+.home-quote-bg p {
+    color: #f6f6f6;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+    h3 {
+        margin-top: 0;
+    }
+
+    .home-banner-bg {
+        padding: 4rem;
+    }
+
+    .expect {
+        margin-bottom: 1rem;
+    }
+
+    .flex-home {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .expect img {
+        max-width: 50%;
+    }
+
+    .home-quote-bg {
+        padding: 4rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .home-banner-bg {
+        padding: 10rem;
+    }
+}
+
+

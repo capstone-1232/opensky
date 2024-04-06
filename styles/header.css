@@ -1,0 +1,76 @@
+/* Text Banner */
+.site::before {
+    content: "CURRENTLY ACCEPTING NEW CLIENTS. PLEASE CALL 780-433-5598 TO BOOK YOUR APPOINTMENT.";
+    background: #b7e9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100% !important;
+}
+
+/* Mobile Navigation */
+.custom-logo {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.site-header {
+    font-weight: bold;
+}
+
+.nav-menu .menu-item {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-menu .menu-item:last-child a {
+    background: #4a58f7;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.nav-menu .menu-item:last-child a:hover {
+    background: #101ff1;
+    color: #fff;
+}
+
+.main-navigation a {
+    padding: 10px;
+    color: #000;
+}
+
+.main-navigation a:hover {
+    background: #a9f7da;
+    padding: 10px;
+}
+
+.site-header-content {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust alignment as needed */
+    align-items: center;
+    /* Align items vertically */
+}
+
+/* Desktop Navigation */
+@media screen and (min-width: 700px) {
+    .site-header {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.19);
+        padding: 0 10px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
