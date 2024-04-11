@@ -492,14 +492,14 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul,
+/* ul,
 ol {
 	margin: 0 0 1.5em 0;
 }
 
 ul {
 	list-style: disc;
-}
+} */
 
 ol {
 	list-style: decimal;
@@ -543,17 +543,17 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #1A416A;
 }
 
 a:visited {
-	color: #800080;
+	color: #1A416A;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color:  #4c77a6;
 }
 
 a:focus {
@@ -758,6 +758,10 @@ textarea {
 .post,
 .page {
 	margin: 0 0 1.5em;
+}
+
+.page {
+	margin: 0;
 }
 
 .updated:not(.published) {
@@ -979,9 +983,6 @@ textarea {
 /* ------ CUSTOM STYLES ------ */
 
 /* ----- SERVICES ----- */
-.card {
-	padding: 1.875rem;
-}
 
 .card-section {
 	margin-top: 80px;
@@ -1045,6 +1046,7 @@ h3 {
 
 p {
 	font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.125rem);
+	margin-bottom: 1rem;
 }
 
 .rounded {

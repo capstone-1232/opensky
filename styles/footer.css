@@ -1,3 +1,26 @@
 .site-info {
     text-align: center;
+    margin-top: 2rem;
+}
+
+.site-info h2 {
+    font-weight: 200;
+}
+
+.site-info a,
+.site-info a:visited {
+    color: #1A416A;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.site-info a:hover {
+    color: #4c77a6;
+    cursor: pointer;
+}
+
+.site-footer {
+    background: #e5f7ff;
+    padding: 2rem 0;
+    margin-top: 2rem;
 }

@@ -1,7 +1,7 @@
 /* Text Banner */
 .site::before {
     content: "CURRENTLY ACCEPTING NEW CLIENTS. PLEASE CALL 780-433-5598 TO BOOK YOUR APPOINTMENT.";
-    background: #b7e9fe;
+    background: #e5f7ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,62 +15,174 @@
 }
 
 /* Mobile Navigation */
-.custom-logo {
+.header-container {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0 1rem;
+}
+
+header {
+    position: relative;
+    z-index: 1000;
+}
+
+header nav {
+    position: absolute;
+    left: 0;
+    top: 116px;
+    width: 100vw;
+    color: #1A416A;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.logo {
+    padding: 20px 16px;
     width: 250px;
-    margin: 0 auto;
-    padding-top: 10px;
+    transition: all 0.5s;
 }
 
-.site-header {
-    font-weight: bold;
-}
 
-.nav-menu .menu-item {
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.nav-menu .menu-item:last-child a {
-    background: #4a58f7;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.nav-menu .menu-item:last-child a:hover {
-    background: #101ff1;
-    color: #fff;
-}
-
-.main-navigation a {
-    padding: 10px;
-    color: #000;
-}
-
-.main-navigation a:hover {
-    background: #a9f7da;
-    padding: 10px;
-}
-
-.site-header-content {
+.header-flex {
     display: flex;
     justify-content: space-between;
-    /* Adjust alignment as needed */
     align-items: center;
-    /* Align items vertically */
 }
 
-/* Desktop Navigation */
-@media screen and (min-width: 700px) {
-    .site-header {
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.19);
-        padding: 0 10px;
+.nav-menu {
+    background: #ffffff;
+}
+
+.nav-menu a {
+    display: block !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1A416A;
+}
+
+ul.nav-menu {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-menu li {
+    flex: 1 0 auto;
+}
+
+.nav-menu a {
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+ul.menu a {
+    display: block;
+}
+
+h1 {
+    display: none;
+}
+
+.special-btn {
+    /* display: block !important; */
+    background-color: #4c77a6;
+    color: #ffffff !important;
+    border: 2px #4c77a6 solid;
+    padding: 8px 50px;
+}
+
+.toggle-btn {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-right: 1rem;
+}
+
+.toggle-btn:hover {
+    cursor: pointer;
+    background: none;
+}
+
+.hamburger-svg {
+    padding: 35px !important;
+    width: 50px;
+}
+
+.show-nav {
+    max-height: 38.125rem;
+    z-index: 999;
+
+}
+
+ul.nav-menu a:hover,
+ul.nav-menu a:active {
+    color: #4c77a6;
+    transition: all 0.5s ease;
+}
+
+.special-btn:hover {
+    transition: all 0.5s ease;
+    background-color: transparent;
+    color: #4c77a6 !important;
+}
+
+.special-btn {
+    padding: 8px 50px;
+}
+
+@media screen and (min-width: 1200px) {
+    .toggle-btn {
+        display: none;
     }
 
-    .flex {
+    header nav {
+        max-height: 28rem;
+        position: static;
+        width: auto;
+        padding: 0;
         display: flex;
-        justify-content: center;
+        gap: 1.5rem;
+        overflow: visible;
         align-items: center;
+    }
+
+    ul.nav-menu {
+        display: flex;
+        gap: 1.5rem;
+        border: none;
+        padding: 15px;
+    }
+
+    .nav-menu a {
+        padding: 8px 8px;
+    }
+
+    ul.nav-menu li {
+        position: relative;
+    }
+
+    ul.nav-menu li:hover {
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .special-btn {
+        border-radius: 30px;
+
     }
 
 }

@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-
-<body>
-    <main id="primary">
         <section>
             <div class="services-banner">
                 <h2>
@@ -54,8 +51,12 @@
                 </div>
             </div>
         </section>
-
-    </main>
-</body>
+        <section class="billing">
+            <div class="container">
+                <h2>Direct Billing</h2>
+                <p>At Open Sky Mental Health, we aim to make your experience as seamless as possible. We offer direct billing services for your convenience. Simply bring your insurance card, and we can process your claim directly through Telus e-claims, Alberta Blue Cross, and Greenshield Insurance.</p>
+                <p>With direct billing, there's often no out-of-pocket expense for you, depending on your individual coverage.</p>
+            </div>
+        </section>
 
 <?php get_footer() ?>

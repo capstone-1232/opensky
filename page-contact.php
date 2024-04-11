@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<section>
+<section class="contact">
     <div class="container contact-flex">
         <div class="contact-info">
             <h2>Contact</h2>
@@ -90,6 +90,11 @@ get_header();
             </div>
         </div>
     </div>
+    </div>
+</section>
+<section class="map">
+    <div class="container">
+    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.389157081473!2d-113.48041852297342!3d53.47937617232816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a018cda6d7c6e5%3A0x2bb98061a5dfc5e8!2s9618%2042%20Ave%20NW%20104%20Building%203%2C%20Edmonton%2C%20AB%20T6E%205Y7!5e0!3m2!1sen!2sca!4v1712776707572!5m2!1sen!2sca" width="960" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
 <?php

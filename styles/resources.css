@@ -1,6 +1,36 @@
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
+} */
+
+.resources-section {
+    margin: 2rem 0;
+}
+
+.resources-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resources-list ul {
+    list-style: disc;
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .resources-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .resources-flex .text {
+        width: 50%;
+    }
+
+    .resources-flex .img {
+        width: 50%;
+    }
 }

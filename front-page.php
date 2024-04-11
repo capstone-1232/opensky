@@ -9,7 +9,7 @@ get_header();
         </div>
     </div>
 </section>
-<section>
+<section class="home">
     <div class="container">
         <h3>Discover Healing and Growth at Open Sky Mental Health</h3>
         <p>We understand that life can be challenging, and seeking support is a brave step towards healing and growth. Our goal is to provide a safe and supportive environment where you can explore your thoughts, feelings, and experiences and gain a deeper understanding of yourself.</p>
@@ -30,7 +30,7 @@ get_header();
         </div>
     </div>
 </section>
-<section>
+<section class="home">
     <div class="home-quote-bg">
         <div class="container center">
             <h3>“As long as you are breathing, there is always more right with you than there is wrong, no matter how ill or hopeless you may feel.”</h3>
